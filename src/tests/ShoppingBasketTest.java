@@ -75,4 +75,23 @@ public class ShoppingBasketTest {
         int expected2 = basket.numOfProducts();
         assertEquals(expected2, 0);
     }
+
+    @Test
+    public void canGetSumOfProductPricesInBaset() throws Exception {
+        basket.addProduct(ham);
+        basket.addProduct(merlot);
+        double expected = basket.totalPriceOfProducts();
+        assertEquals(expected, 18.58, 0.01);
+
+    }
+
+    @Test
+    public void canGetFrequencyOfEachProduct() throws Exception {
+        basket.addProduct(leek);
+        basket.addProduct(leek);
+        basket.addProduct(leek);
+        int expected = basket.numOfProductInStock(leek);
+        assertEquals(expected, 3);
+    }
+
 }

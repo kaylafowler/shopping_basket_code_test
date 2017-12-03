@@ -4,14 +4,13 @@ public class Product {
     private String name;
     private int id;
     private double price;
-    private boolean discounted;
-    private int origPrice;
+    private boolean buyonegetonefree;
 
-    public Product(String name, int id, double price, boolean discounted){
+    public Product(String name, int id, double price, boolean buyonegetonefree){
         this.name = name;
         this.id = id;
         this.price = price;
-        this.discounted = discounted;
+        this.buyonegetonefree = buyonegetonefree;
     }
 
 
@@ -27,8 +26,8 @@ public class Product {
         return price;
     }
 
-    public boolean isDiscounted() {
-        return discounted;
+    public boolean isBuyonegetonefree() {
+        return buyonegetonefree;
     }
 
     public void setName(String name) {
@@ -39,8 +38,8 @@ public class Product {
         this.price = price;
     }
 
-    public void setDiscounted(boolean discounted) {
-        this.discounted = discounted;
+    public void setBuyonegetonefree(boolean buyonegetonefree) {
+        this.buyonegetonefree = buyonegetonefree;
     }
 }
 

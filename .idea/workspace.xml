@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8016f1c7-caec-4527-a673-7c8d899d74ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/ShoppingBasketTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/models/Discounter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/Stock.java" afterPath="$PROJECT_DIR$/src/models/Stock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/Product.java" afterPath="$PROJECT_DIR$/src/models/Product.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/ShoppingBasketTest.java" afterPath="$PROJECT_DIR$/src/tests/ShoppingBasketTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,23 +30,23 @@
       <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#604#605#0" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
+                <element signature="e#882#883#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,8 +55,8 @@
       <file leaf-file-name="Stock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/Stock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+            <state relative-caret-position="325">
+              <caret line="37" column="3" lean-forward="false" selection-start-line="37" selection-start-column="3" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#177#178#0" expanded="true" />
@@ -80,25 +81,26 @@
       <file leaf-file-name="ShoppingBasket.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/ShoppingBasket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="381">
+              <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
               <folding>
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
                 <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingBasketTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShoppingBasketTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/ShoppingBasketTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+            <state relative-caret-position="662">
+              <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,11 +108,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Discounter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/Discounter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/ProductTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            <state relative-caret-position="427">
+              <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,8 +133,8 @@
       <file leaf-file-name="StockTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/StockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-728">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="182">
+              <caret line="61" column="2" lean-forward="false" selection-start-line="61" selection-start-column="2" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,6 +148,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -156,13 +169,13 @@
         <option value="$PROJECT_DIR$/src/StockTest.java" />
         <option value="$PROJECT_DIR$/src/Tests/StockTest.java" />
         <option value="$PROJECT_DIR$/src/Product.java" />
-        <option value="$PROJECT_DIR$/src/models/Product.java" />
         <option value="$PROJECT_DIR$/src/Tests/ProductTest.java" />
-        <option value="$PROJECT_DIR$/src/tests/ProductTest.java" />
         <option value="$PROJECT_DIR$/src/models/Stock.java" />
         <option value="$PROJECT_DIR$/src/tests/StockTest.java" />
         <option value="$PROJECT_DIR$/src/models/ShoppingBasket.java" />
         <option value="$PROJECT_DIR$/src/tests/ShoppingBasketTest.java" />
+        <option value="$PROJECT_DIR$/src/models/Product.java" />
+        <option value="$PROJECT_DIR$/src/tests/ProductTest.java" />
       </list>
     </option>
   </component>
@@ -234,8 +247,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingBasketTest.canEmptyBasket">
-    <configuration name="ShoppingBasketTest.basketStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ProductTest">
+    <configuration name="ProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -246,34 +259,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ShoppingBasketTest" />
-      <option name="METHOD_NAME" value="basketStartsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ShoppingBasketTest.canAddProductToBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="weekend_homework" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ShoppingBasketTest" />
-      <option name="METHOD_NAME" value="canAddProductToBasket" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="tests.ProductTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -310,6 +298,56 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="ShoppingBasketTest.canGetFrequencyOfEachProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="weekend_homework" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ShoppingBasketTest" />
+      <option name="METHOD_NAME" value="canGetFrequencyOfEachProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ShoppingBasketTest.canGetSumOfProductPricesInBaset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="weekend_homework" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ShoppingBasketTest" />
+      <option name="METHOD_NAME" value="canGetSumOfProductPricesInBaset" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="ShoppingBasketTest.canRemoveProductFromBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -323,31 +361,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.ShoppingBasketTest" />
       <option name="METHOD_NAME" value="canRemoveProductFromBasket" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ShoppingBasketTest.cannotAddOutOfStockProductToBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="weekend_homework" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ShoppingBasketTest" />
-      <option name="METHOD_NAME" value="cannotAddOutOfStockProductToBasket" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -442,19 +455,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.basketStartsEmpty" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canAddProductToBasket" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.cannotAddOutOfStockProductToBasket" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canRemoveProductFromBasket" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canEmptyBasket" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canRemoveProductFromBasket" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canEmptyBasket" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canGetSumOfProductPricesInBaset" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canGetFrequencyOfEachProduct" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ProductTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canEmptyBasket" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canRemoveProductFromBasket" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.cannotAddOutOfStockProductToBasket" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canAddProductToBasket" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.basketStartsEmpty" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ProductTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canGetFrequencyOfEachProduct" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canGetSumOfProductPricesInBaset" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canEmptyBasket" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canRemoveProductFromBasket" />
       </list>
     </recent_temporary>
   </component>
@@ -483,15 +496,19 @@
       <option name="project" value="LOCAL" />
       <updated>1512319943116</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished shopping basket class, all tests passing">
+      <created>1512325720975</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512325720975</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShoppingBasketTest_basketStartsEmpty - 2017.12.03 at 17h 23m 34s.xml">
-      <configuration name="ShoppingBasketTest.basketStartsEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShoppingBasketTest_basketStartsEmpty - 2017.12.03 at 17h 24m 22s.xml">
-      <configuration name="ShoppingBasketTest.basketStartsEmpty" configurationId="JUnit" />
+    <history-entry file="ProductTest - 2017.12.03 at 18h 47m 02s.xml">
+      <configuration name="ProductTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ShoppingBasketTest_basketStartsEmpty - 2017.12.03 at 17h 27m 08s.xml">
       <configuration name="ShoppingBasketTest.basketStartsEmpty" configurationId="JUnit" />
@@ -508,14 +525,17 @@
     <history-entry file="ShoppingBasketTest_canEmptyBasket - 2017.12.03 at 18h 28m 09s.xml">
       <configuration name="ShoppingBasketTest.canEmptyBasket" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShoppingBasketTest_canGetFrequencyOfEachProduct - 2017.12.03 at 18h 36m 09s.xml">
+      <configuration name="ShoppingBasketTest.canGetFrequencyOfEachProduct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingBasketTest_canGetSumOfProductPricesInBaset - 2017.12.03 at 18h 32m 39s.xml">
+      <configuration name="ShoppingBasketTest.canGetSumOfProductPricesInBaset" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ShoppingBasketTest_canRemoveProductFromBasket - 2017.12.03 at 18h 23m 50s.xml">
       <configuration name="ShoppingBasketTest.canRemoveProductFromBasket" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ShoppingBasketTest_cannotAddOutOfStockProductToBasket - 2017.12.03 at 18h 15m 22s.xml">
       <configuration name="ShoppingBasketTest.cannotAddOutOfStockProductToBasket" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StockTest_canReturnFalseIfProductNotInStock - 2017.12.03 at 17h 07m 49s.xml">
-      <configuration name="StockTest.canReturnFalseIfProductNotInStock" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -596,7 +616,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added stock class" />
     <MESSAGE value="finished stock class, all tests passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished stock class, all tests passing" />
+    <MESSAGE value="finished shopping basket class, all tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished shopping basket class, all tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -629,33 +650,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/Stock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+        <state relative-caret-position="325">
+          <caret line="37" column="3" lean-forward="false" selection-start-line="37" selection-start-column="3" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#177#178#0" expanded="true" />
@@ -676,45 +674,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/ProductTest.java">
+    <entry file="file://$PROJECT_DIR$/src/models/ShoppingBasket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="381">
+          <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/StockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-728">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="182">
+          <caret line="61" column="2" lean-forward="false" selection-start-line="61" selection-start-column="2" selection-end-line="67" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/ShoppingBasket.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/ShoppingBasketTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        <state relative-caret-position="662">
+          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/ShoppingBasketTest.java">
+    <entry file="file://$PROJECT_DIR$/src/models/Discounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+        <state relative-caret-position="30">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
