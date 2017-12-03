@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8016f1c7-caec-4527-a673-7c8d899d74ba" name="Default" comment="finished stock class, all tests passin">
+    <list default="true" id="8016f1c7-caec-4527-a673-7c8d899d74ba" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/ShoppingBasketTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/Stock.java" afterPath="$PROJECT_DIR$/src/models/Stock.java" />
     </list>
@@ -53,8 +54,8 @@
       <file leaf-file-name="Stock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/models/Stock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+            <state relative-caret-position="585">
+              <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#177#178#0" expanded="true" />
@@ -69,16 +70,59 @@
                 <element signature="e#548#549#0" expanded="true" />
                 <element signature="e#931#932#0" expanded="true" />
                 <element signature="e#964#965#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="e#1067#1068#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StockTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShoppingBasket.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/ShoppingBasket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+              <folding>
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShoppingBasketTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tests/ShoppingBasketTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1125">
+              <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/ProductTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StockTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/StockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="73" column="34" lean-forward="false" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
+            <state relative-caret-position="-728">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,6 +161,8 @@
         <option value="$PROJECT_DIR$/src/tests/ProductTest.java" />
         <option value="$PROJECT_DIR$/src/models/Stock.java" />
         <option value="$PROJECT_DIR$/src/tests/StockTest.java" />
+        <option value="$PROJECT_DIR$/src/models/ShoppingBasket.java" />
+        <option value="$PROJECT_DIR$/src/tests/ShoppingBasketTest.java" />
       </list>
     </option>
   </component>
@@ -188,8 +234,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StockTest.canEmptyStockList">
-    <configuration name="StockTest.canAddProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ShoppingBasketTest.canEmptyBasket">
+    <configuration name="ShoppingBasketTest.basketStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -200,8 +246,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.StockTest" />
-      <option name="METHOD_NAME" value="canAddProduct" />
+      <option name="MAIN_CLASS_NAME" value="tests.ShoppingBasketTest" />
+      <option name="METHOD_NAME" value="basketStartsEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -214,7 +260,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="StockTest.canEmptyStockList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingBasketTest.canAddProductToBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -225,8 +271,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.StockTest" />
-      <option name="METHOD_NAME" value="canEmptyStockList" />
+      <option name="MAIN_CLASS_NAME" value="tests.ShoppingBasketTest" />
+      <option name="METHOD_NAME" value="canAddProductToBasket" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -239,7 +285,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="StockTest.canGetFrequencyOfEachProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingBasketTest.canEmptyBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -250,8 +296,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.StockTest" />
-      <option name="METHOD_NAME" value="canGetFrequencyOfEachProduct" />
+      <option name="MAIN_CLASS_NAME" value="tests.ShoppingBasketTest" />
+      <option name="METHOD_NAME" value="canEmptyBasket" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -264,7 +310,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="StockTest.canRemoveProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingBasketTest.canRemoveProductFromBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -275,8 +321,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.StockTest" />
-      <option name="METHOD_NAME" value="canRemoveProduct" />
+      <option name="MAIN_CLASS_NAME" value="tests.ShoppingBasketTest" />
+      <option name="METHOD_NAME" value="canRemoveProductFromBasket" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -289,7 +335,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="StockTest.canSumAllPrices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingBasketTest.cannotAddOutOfStockProductToBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -300,8 +346,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.StockTest" />
-      <option name="METHOD_NAME" value="canSumAllPrices" />
+      <option name="MAIN_CLASS_NAME" value="tests.ShoppingBasketTest" />
+      <option name="METHOD_NAME" value="cannotAddOutOfStockProductToBasket" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -396,19 +442,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.StockTest.canAddProduct" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StockTest.canRemoveProduct" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.StockTest.canSumAllPrices" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.StockTest.canGetFrequencyOfEachProduct" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.StockTest.canEmptyStockList" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.basketStartsEmpty" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canAddProductToBasket" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.cannotAddOutOfStockProductToBasket" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canRemoveProductFromBasket" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canEmptyBasket" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.StockTest.canEmptyStockList" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StockTest.canGetFrequencyOfEachProduct" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StockTest.canSumAllPrices" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.StockTest.canRemoveProduct" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.StockTest.canAddProduct" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canEmptyBasket" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canRemoveProductFromBasket" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.cannotAddOutOfStockProductToBasket" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.canAddProductToBasket" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ShoppingBasketTest.basketStartsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -430,39 +476,46 @@
       <option name="project" value="LOCAL" />
       <updated>1512317734377</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finished stock class, all tests passing">
+      <created>1512319943116</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1512319943116</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductTest - 2017.12.03 at 15h 34m 46s.xml">
-      <configuration name="ProductTest" configurationId="JUnit" />
+    <history-entry file="ShoppingBasketTest_basketStartsEmpty - 2017.12.03 at 17h 23m 34s.xml">
+      <configuration name="ShoppingBasketTest.basketStartsEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductTest - 2017.12.03 at 16h 10m 41s.xml">
-      <configuration name="ProductTest" configurationId="JUnit" />
+    <history-entry file="ShoppingBasketTest_basketStartsEmpty - 2017.12.03 at 17h 24m 22s.xml">
+      <configuration name="ShoppingBasketTest.basketStartsEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductTest_canSetDiscounted - 2017.12.03 at 15h 34m 39s.xml">
-      <configuration name="ProductTest.canSetDiscounted" configurationId="JUnit" />
+    <history-entry file="ShoppingBasketTest_basketStartsEmpty - 2017.12.03 at 17h 27m 08s.xml">
+      <configuration name="ShoppingBasketTest.basketStartsEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StockTest_canAddProduct - 2017.12.03 at 16h 18m 26s.xml">
-      <configuration name="StockTest.canAddProduct" configurationId="JUnit" />
+    <history-entry file="ShoppingBasketTest_basketStartsEmpty - 2017.12.03 at 17h 45m 51s.xml">
+      <configuration name="ShoppingBasketTest.basketStartsEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StockTest_canEmptyStockList - 2017.12.03 at 16h 52m 01s.xml">
-      <configuration name="StockTest.canEmptyStockList" configurationId="JUnit" />
+    <history-entry file="ShoppingBasketTest_canAddProductToBasket - 2017.12.03 at 18h 01m 39s.xml">
+      <configuration name="ShoppingBasketTest.canAddProductToBasket" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StockTest_canGetFrequencyOfEachProduct - 2017.12.03 at 16h 46m 43s.xml">
-      <configuration name="StockTest.canGetFrequencyOfEachProduct" configurationId="JUnit" />
+    <history-entry file="ShoppingBasketTest_canAddProductToBasket - 2017.12.03 at 18h 15m 15s.xml">
+      <configuration name="ShoppingBasketTest.canAddProductToBasket" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StockTest_canGetStocklistLength - 2017.12.03 at 15h 59m 55s.xml">
-      <configuration name="StockTest.canGetStocklistLength" configurationId="JUnit" />
+    <history-entry file="ShoppingBasketTest_canEmptyBasket - 2017.12.03 at 18h 28m 09s.xml">
+      <configuration name="ShoppingBasketTest.canEmptyBasket" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StockTest_canRemoveProduct - 2017.12.03 at 16h 28m 23s.xml">
-      <configuration name="StockTest.canRemoveProduct" configurationId="JUnit" />
+    <history-entry file="ShoppingBasketTest_canRemoveProductFromBasket - 2017.12.03 at 18h 23m 50s.xml">
+      <configuration name="ShoppingBasketTest.canRemoveProductFromBasket" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StockTest_canSumAllPrices - 2017.12.03 at 16h 35m 53s.xml">
-      <configuration name="StockTest.canSumAllPrices" configurationId="JUnit" />
+    <history-entry file="ShoppingBasketTest_cannotAddOutOfStockProductToBasket - 2017.12.03 at 18h 15m 22s.xml">
+      <configuration name="ShoppingBasketTest.cannotAddOutOfStockProductToBasket" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StockTest_canSumAllPrices - 2017.12.03 at 16h 36m 13s.xml">
-      <configuration name="StockTest.canSumAllPrices" configurationId="JUnit" />
+    <history-entry file="StockTest_canReturnFalseIfProductNotInStock - 2017.12.03 at 17h 07m 49s.xml">
+      <configuration name="StockTest.canReturnFalseIfProductNotInStock" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -491,7 +544,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18968254" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18968254" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -542,7 +595,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added stock class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added stock class" />
+    <MESSAGE value="finished stock class, all tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished stock class, all tests passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -575,16 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/ProductTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -610,8 +654,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/Stock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        <state relative-caret-position="585">
+          <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#177#178#0" expanded="true" />
@@ -626,14 +670,51 @@
             <element signature="e#548#549#0" expanded="true" />
             <element signature="e#931#932#0" expanded="true" />
             <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/StockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" column="34" lean-forward="false" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
+        <state relative-caret-position="-728">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/ShoppingBasket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ShoppingBasketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

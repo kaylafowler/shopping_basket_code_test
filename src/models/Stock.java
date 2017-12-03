@@ -43,5 +43,9 @@ public class Stock {
     public void emptyStockList(){
         stockList.clear();
     }
+
+    public boolean productInStock(Product product){
+        return stockList.contains(product);
+    }
 }
 
