@@ -46,7 +46,7 @@ public class ShoppingBasketTest {
     public void canAddProductToBasket() throws Exception {
         basket.addProduct(shampoo);
         int expected = basket.numOfProducts();
-        assertEquals(expected, 1);
+        assertEquals(expected, 2);
     }
 
     @Test(expected = Exception.class)
@@ -59,10 +59,10 @@ public class ShoppingBasketTest {
     public void canRemoveProductFromBasket() throws Exception {
         basket.addProduct(shampoo);
         int expected1 = basket.numOfProducts();
-        assertEquals(expected1, 1);
+        assertEquals(expected1, 2);
         basket.removeProduct(shampoo);
         int expected2 = basket.numOfProducts();
-        assertEquals(expected2, 0);
+        assertEquals(expected2, 1);
     }
 
     @Test
@@ -70,7 +70,7 @@ public class ShoppingBasketTest {
         basket.addProduct(merlot);
         basket.addProduct(ham);
         int expected1 = basket.numOfProducts();
-        assertEquals(expected1, 2);
+        assertEquals(expected1, 3);
         basket.emptyBasket();
         int expected2 = basket.numOfProducts();
         assertEquals(expected2, 0);
@@ -90,8 +90,24 @@ public class ShoppingBasketTest {
         basket.addProduct(leek);
         basket.addProduct(leek);
         basket.addProduct(leek);
-        int expected = basket.numOfProductInStock(leek);
+        int expected = basket.numOfProductInBasket(leek);
         assertEquals(expected, 3);
+    }
+
+    @Test
+    public void canGetBOGOFDeal() throws Exception {
+        basket.addProduct(ham);
+        int expected = basket.numOfProducts();
+        assertEquals(expected, 2);
+    }
+
+    @Test
+    public void checkBOGOFPricesSumCorrectly() throws Exception {
+        basket.addProduct(ham);
+        basket.addProduct(leek);
+        double expected = basket.totalPriceOfProducts();
+        assertEquals(expected, 10.49, 0.01);
+
     }
 
 }
